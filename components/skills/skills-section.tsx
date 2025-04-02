@@ -27,12 +27,6 @@ export default function SkillsSection() {
         "Creating engaging, SEO-optimized content that resonates with target audiences and drives conversions.",
     },
     {
-      icon: "🔍",
-      name: "SEO Management",
-      description:
-        "Implementing search engine optimization techniques to improve website visibility and organic traffic.",
-    },
-    {
       icon: "📊",
       name: "Analytics & Reporting",
       description:
