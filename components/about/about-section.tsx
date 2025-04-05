@@ -127,7 +127,7 @@ export default function AboutSection() {
                   <p className="text-gray-300 leading-relaxed">
                     Results-driven digital marketer and event manager with
                     hands-on experience in executing strategic campaigns. Adept
-                    at leveraging analytics, SEO, and branding techniques to
+                    at leveraging analytics and branding techniques to
                     drive business growth and maximize engagement.
                   </p>
                   {/* <p className="text-gray-300 leading-relaxed mt-3">
