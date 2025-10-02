@@ -67,9 +67,9 @@ export default function Header() {
               </Link>
             ))}
             <a
-              href="https://1drv.ms/b/c/5ed06253bf894f16/ERHXvVOT_1tKu_jYEoAoWZ0BrOFO2OpMjrBSh168I6k8Lg?e=9LIo4D"
+              href="/resume.pdf"
               target="_blank"
-              download
+              download="Shazia_Praveen_Resume.pdf"
             >
               <Button className="bg-pink-600 hover:bg-pink-700 text-white">
                 <Download className="mr-2 h-4 w-4" /> Download CV
