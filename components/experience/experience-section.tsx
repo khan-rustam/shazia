@@ -40,7 +40,7 @@ export default function ExperienceSection() {
     {
       company: "Super Growth Marketing | Jaipur, Rajasthan",
       position: "Marketing Manager & Specialist",
-      period: "March 2024 - August 2024",
+      period: "Feb 2024 - August 2024",
       type: "Hybrid",
       description:
         "Supported cross-functional marketing initiatives including event coordination and client meetings to enhance brand visibility and campaign execution.",
