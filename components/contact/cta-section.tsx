@@ -30,9 +30,9 @@ export default function CTASection() {
               </Button>
             </a>
             <a
-              href="https://1drv.ms/b/c/5ed06253bf894f16/ERHXvVOT_1tKu_jYEoAoWZ0BrOFO2OpMjrBSh168I6k8Lg?e=9LIo4D"
+              href="/resume.pdf"
               target="_blank"
-              download
+              download="Shazia_Praveen_Resume.pdf"
             >
               <Button
                 variant="outline"

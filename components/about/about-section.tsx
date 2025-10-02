@@ -2,8 +2,6 @@ import { Mail, MapPin, Phone, Linkedin, Instagram, Globe } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
-import shazia from "@/public/shaz.jpg";
-
 /**
  * AboutSection component displays personal information,
  * professional profile, education, languages, and interests
@@ -48,7 +46,7 @@ export default function AboutSection() {
                 <div className="flex flex-col items-center">
                   <div className="relative w-32 h-32 rounded-full overflow-hidden border-2 border-pink-500 mb-4">
                     <Image
-                      src={shazia}
+                      src="/shaz-image.jpg"
                       alt="Shazia Praveen"
                       fill
                       className="object-cover"
@@ -125,10 +123,7 @@ export default function AboutSection() {
                     Professional Profile
                   </h3>
                   <p className="text-gray-300 leading-relaxed">
-                    Results-driven digital marketer and event manager with
-                    hands-on experience in executing strategic campaigns. Adept
-                    at leveraging analytics and branding techniques to
-                    drive business growth and maximize engagement.
+                    Results-driven digital marketer and event manager with hands-on experience in executing strategic campaigns. Adept at leveraging analytics and branding techniques to drive business growth and maximize engagement.
                   </p>
                   {/* <p className="text-gray-300 leading-relaxed mt-3">
                     My approach combines analytical thinking with creative
@@ -154,7 +149,7 @@ export default function AboutSection() {
                     <li>
                       <h4 className="font-medium">Higher Secondary</h4>
                       <p className="text-gray-400">BM Bharti Model School</p>
-                      <p className="text-sm text-gray-500">2020 - 2021</p>
+                      <p className="text-sm text-gray-500">2019 - 2021</p>
                     </li>
                   </ul>
                 </div>
@@ -170,20 +165,29 @@ export default function AboutSection() {
                   <ul className="space-y-3">
                     <li>
                       <div className="flex justify-between mb-1">
-                        <span>English</span>
-                        <span className="text-pink-400">Fluent</span>
+                        <span>Hindi</span>
+                        <span className="text-pink-400">Native</span>
                       </div>
                       <div className="w-full bg-gray-700 rounded-full h-1.5">
-                        <div className="bg-gradient-to-r from-pink-400 to-pink-600 h-1.5 rounded-full w-[95%]"></div>
+                        <div className="bg-gradient-to-r from-pink-400 to-pink-600 h-1.5 rounded-full w-full"></div>
                       </div>
                     </li>
                     <li>
                       <div className="flex justify-between mb-1">
-                        <span>Hindi</span>
-                        <span className="text-pink-400">Fluent</span>
+                        <span>English</span>
+                        <span className="text-pink-400">Proficient</span>
                       </div>
                       <div className="w-full bg-gray-700 rounded-full h-1.5">
-                        <div className="bg-gradient-to-r from-pink-400 to-pink-600 h-1.5 rounded-full w-full"></div>
+                        <div className="bg-gradient-to-r from-pink-400 to-pink-600 h-1.5 rounded-full w-[90%]"></div>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="flex justify-between mb-1">
+                        <span>Urdu</span>
+                        <span className="text-pink-400">Proficient</span>
+                      </div>
+                      <div className="w-full bg-gray-700 rounded-full h-1.5">
+                        <div className="bg-gradient-to-r from-pink-400 to-pink-600 h-1.5 rounded-full w-[90%]"></div>
                       </div>
                     </li>
                   </ul>

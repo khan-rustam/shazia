@@ -95,9 +95,10 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/10 py-6 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-500 text-sm">© {currentYear} Shazia Praveen. All rights reserved.</p>
+          <p className="text-gray-500 text-sm">© {currentYear} by&nbsp;<a href="https://www.instagram.com/_shaz_khalique">Shazia Praveen</a>. All rights reserved.</p>
           <p className="text-gray-500 text-sm mt-2 md:mt-0 flex items-center">
-            Made with <Heart className="h-4 w-4 text-pink-500 mx-1" /> by Shazia Praveen
+            Made with <Heart className="h-4 w-4 text-pink-500 mx-1" /> by
+            <a href="https://www.instagram.com/_shaz_khalique">&nbsp;Shazia Praveen</a>
           </p>
         </div>
       </div>

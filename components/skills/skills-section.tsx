@@ -10,9 +10,37 @@ export default function SkillsSection() {
   const skillsData = [
     {
       icon: "📱",
-      name: "Social Media Management",
+      name: "Social Media Strategy",
       description:
         "Strategic planning and execution of social media campaigns across multiple platforms to maximize engagement and brand visibility.",
+    },
+    {
+      icon: "👥",
+      name: "Social Media Management",
+      description:
+        "End-to-end management of social media operations including content planning, creation, and maintaining strategic monthly calendars.",
+    },
+    {
+      icon: "✍️",
+      name: "Content Creation",
+      description:
+        "Creating engaging, SEO-optimized content that resonates with target audiences and drives conversions.",
+    },
+    {
+      icon: "📝",
+      name: "Web Content Writing",
+      description:
+        "Crafting compelling web content that enhances user experience and drives engagement.",
+    },
+    {
+      icon: "📰",
+      name: "Blog Writing",
+      description: "Creating informative and engaging blog posts that establish thought leadership and drive traffic.",
+    },
+    {
+      icon: "📄",
+      name: "Article Writing",
+      description: "Writing well-researched articles that provide value to readers and boost brand authority.",
     },
     {
       icon: "🚀",
@@ -21,16 +49,9 @@ export default function SkillsSection() {
         "Comprehensive digital marketing strategies including campaign planning, execution, and performance analysis.",
     },
     {
-      icon: "✍️",
-      name: "Content Writing",
-      description:
-        "Creating engaging, SEO-optimized content that resonates with target audiences and drives conversions.",
-    },
-    {
-      icon: "📊",
-      name: "Analytics & Reporting",
-      description:
-        "Data-driven analysis of marketing campaigns to measure performance and identify optimization opportunities.",
+      icon: "📧",
+      name: "Email Campaign Design",
+      description: "Designing and executing effective email marketing campaigns that drive engagement and conversions.",
     },
     {
       icon: "🎯",
@@ -43,24 +64,69 @@ export default function SkillsSection() {
       description: "Clear and persuasive communication skills for client relations and content creation.",
     },
     {
-      icon: "🌐",
-      name: "Website Management",
-      description: "Maintaining and optimizing websites for performance, user experience, and conversion optimization.",
-    },
-    {
-      icon: "📝",
-      name: "Blog & Article Writing",
-      description: "Creating informative and engaging blog posts and articles that establish thought leadership.",
-    },
-    {
       icon: "🗺️",
-      name: "Google My Business",
+      name: "Google My Business (GMB)",
       description: "Optimizing GMB listings to improve local search visibility and customer engagement.",
     },
     {
-      icon: "🔑",
+      icon: "🔍",
       name: "Keyword Optimization",
       description: "Strategic keyword research and implementation to improve search engine rankings.",
+    },
+    {
+      icon: "📊",
+      name: "Campaign Management",
+      description: "Managing marketing campaigns from conception to execution, ensuring optimal performance and ROI.",
+    },
+    {
+      icon: "👨‍💼",
+      name: "Team Leadership",
+      description: "Leading and guiding marketing teams to achieve goals and deliver exceptional results.",
+    },
+    {
+      icon: "📈",
+      name: "Analytics & Reporting",
+      description: "Data-driven analysis of marketing campaigns to measure performance and identify optimization opportunities.",
+    },
+    {
+      icon: "📱",
+      name: "Meta Ads",
+      description: "Creating and managing effective advertising campaigns on Meta platforms (Facebook & Instagram).",
+    },
+    {
+      icon: "📋",
+      name: "Case Study / Research",
+      description: "Conducting thorough research and creating detailed case studies to support marketing strategies.",
+    },
+    {
+      icon: "🔍",
+      name: "Market Research",
+      description: "Analyzing market trends and consumer behavior to inform strategic marketing decisions.",
+    },
+    {
+      icon: "🎨",
+      name: "Canva Design (Basic)",
+      description: "Creating visually appealing graphics and marketing materials using Canva for various campaigns.",
+    },
+    {
+      icon: "📊",
+      name: "Marketing Strategy",
+      description: "Developing comprehensive marketing strategies that align with business objectives and drive growth.",
+    },
+    {
+      icon: "🤝",
+      name: "Customer Engagement",
+      description: "Building and maintaining strong relationships with customers through effective engagement strategies.",
+    },
+    {
+      icon: "📋",
+      name: "Marketing Planning",
+      description: "Strategic planning of marketing initiatives to ensure coordinated and effective campaign execution.",
+    },
+    {
+      icon: "🎯",
+      name: "Creative Direction",
+      description: "Providing creative guidance and direction for marketing campaigns and content creation.",
     },
     {
       icon: "📅",

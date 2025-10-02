@@ -6,36 +6,36 @@ export default function ExperienceSection() {
   // Work experience data
   const experiences = [
     {
-      company: "Sparkshift",
-      position: "Founder & Social Media Manager",
-      period: "January 2025 - Present",
-      type: "Remote",
-      description:
-        "Founded and managed a social media marketing agency, providing comprehensive digital marketing solutions to clients across various industries.",
-    },
-    {
-      company: "Synergy Jaipur, Rajasthan",
+      company: "Kayease",
       position: "Digital Marketing Manager",
-      period: "July 2024 - August 2024",
-      type: "On-Site",
+      period: "Aug 2025 - Present",
+      type: "Hybrid",
       description:
-        "Led digital marketing strategies, managed team of executives, and optimized campaigns to increase client engagement and conversions.",
+        "Led marketing initiatives to grow brand awareness and connect with customers effectively. Managed marketing strategies and campaigns, guiding the team to achieve goals and deliver results.",
     },
     {
-      company: "Synergy Jaipur, Rajasthan",
-      position: "Digital Marketing Executive",
-      period: "July 2024 - December 2024",
+      company: "Synergy",
+      position: "Digital Marketing Manager",
+      period: "Dec 2024 - July 2025",
       type: "On-Site",
       description:
-        "Executed digital marketing campaigns, managed social media accounts, and created engaging content for various client brands.",
+        "Coordinated and led brand meetings and client interactions to align campaign goals with brand expectations. Supported event coordination and client meetings, ensuring timely execution and alignment with brand messaging.",
+    },
+    {
+      company: "Synergy",
+      position: "Digital Marketing Executive",
+      period: "July 2024 - Dec 2024",
+      type: "On-Site",
+      description:
+        "Created engaging content and scheduled posts across platforms in accordance with editorial calendar to maintain consistency and boost engagement. Managed end-to-end social media operations including content planning, creation, and maintaining a strategic monthly social media calendar.",
     },
     {
       company: "Yati Group & Events | Jaipur, Rajasthan",
-      position: "Digital Marketing Manager",
-      period: "July 2024 - August 2024",
+      position: "Digital Marketing Executive",
+      period: "July 2024 - Dec 2024",
       type: "Hybrid",
       description:
-        "Managed digital marketing for events, created promotional materials, and coordinated online event marketing campaigns.",
+        "Facilitated brand meetings and collaborated with internal teams to align marketing efforts with broader brand goals.",
     },
     {
       company: "Super Growth Marketing | Jaipur, Rajasthan",
@@ -43,15 +43,7 @@ export default function ExperienceSection() {
       period: "March 2024 - August 2024",
       type: "Hybrid",
       description:
-        "Developed and implemented marketing strategies to drive business growth, analyzed market trends, and optimized campaign performance.",
-    },
-    {
-      company: "Todi Steel's Pvt. Ltd | Jaipur, Rajasthan",
-      position: "Brand promoter",
-      period: "March 2024 - March 2024",
-      type: "On-Site",
-      description:
-        "Promoted brand awareness through various marketing channels, engaged with potential customers, and represented the company at industry events.",
+        "Supported cross-functional marketing initiatives including event coordination and client meetings to enhance brand visibility and campaign execution.",
     },
   ];
 

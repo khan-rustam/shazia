@@ -1,7 +1,6 @@
 import Image from "next/image"
 import { Download, Mail } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import shazia from "@/public/shaz.jpg"
 
 /**
  * HeroSection component - the main landing section of the portfolio
@@ -27,7 +26,7 @@ export default function HeroSection() {
             {/* Profile image with animation */}
             <div className="relative w-48 h-48 rounded-full overflow-hidden border-4 border-pink-500 shadow-lg shadow-pink-500/20 animate-float hidden md:block">
               <Image
-                src={shazia}
+                src="/shaz-image.jpg"
                 alt="Shazia Praveen - Digital Marketing & Event Manager"
                 fill
                 className="object-cover"
@@ -43,9 +42,7 @@ export default function HeroSection() {
               </h1>
               <h2 className="text-xl md:text-2xl font-medium mb-4 text-gray-200">Digital Marketing & Event Manager</h2>
               <p className="text-gray-300 max-w-lg mb-6 text-left">
-                Versatile digital marketing and event management professional with a passion for crafting impactful
-                marketing strategies. Proven expertise in social media management, brand promotion, and content creation
-                to enhance online presence and audience engagement.
+                Versatile digital marketing and event management professional with a passion for crafting impactful marketing strategies. Proven expertise in social media management, brand promotion, and content creation to enhance online presence and audience engagement.
               </p>
 
               {/* Call-to-action buttons */}
@@ -56,9 +53,9 @@ export default function HeroSection() {
                   </Button>
                 </a>
                 <a
-                  href="https://1drv.ms/b/c/5ed06253bf894f16/ERHXvVOT_1tKu_jYEoAoWZ0BrOFO2OpMjrBSh168I6k8Lg?e=9LIo4D"
+                  href="/resume.pdf"
                   target="_blank"
-                  download
+                  download="Shazia_Praveen_Resume.pdf"
                 >
                   <Button variant="outline" className="border-pink-500 text-pink-500 hover:bg-pink-500/10">
                     <Download className="mr-2 h-4 w-4" /> Download Resume

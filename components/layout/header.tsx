@@ -51,7 +51,7 @@ export default function Header() {
             href="/"
             className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-400 to-pink-600"
           >
-            Shazia Praveen
+            Shazia Praveen.
           </Link>
 
           {/* Desktop Navigation */}

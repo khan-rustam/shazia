@@ -2,6 +2,7 @@ import { Suspense } from "react"
 import Header from "@/components/layout/header"
 import Footer from "@/components/layout/footer"
 import LoadingSpinner from "@/components/ui/loading-spinner"
+import WhatsAppFloat from "@/components/ui/whatsapp-float"
 
 // Dynamically import sections for better performance
 import dynamic from "next/dynamic"
@@ -62,6 +63,9 @@ export default function Home() {
       </Suspense>
 
       <Footer />
+      
+      {/* Floating WhatsApp Button */}
+      <WhatsAppFloat />
     </div>
   )
 }
